@@ -1,24 +1,24 @@
-#Pharmacy Management System
+# Pharmacy Management System
 The Pharmacy Management System is a database system designed to efficiently manage medication inventory, track prescriptions, and streamline customer interactions. It provides a comprehensive solution for pharmacies to organize their staff, products, customers, suppliers, and transactions.
 
-#Install MySQL Database
+# Install MySQL Database
 If MySQL is not already installed on your system, download and install it from the official MySQL website: MySQL Downloads. MySQL Downloads
 Follow the installation instructions provided for your operating system.
 Windows: Go to the MySQL Community Downloads page. MySQL Downloads Under "MySQL Community Server", select the appropriate version for your Windows architecture (usually 64-bit). Click on the "Download" button. Follow the on-screen instructions to complete the download.
 macOS: Visit the MySQL Community Downloads page. MySQL Downloads Under "MySQL Community Server", select the macOS version. Click on the "Download" button. Follow the instructions to complete the download.
 Linux: For Linux distributions, MySQL is often available through package managers like apt (for Debian/Ubuntu) or yum (for CentOS/RHEL). Alternatively, you can download the MySQL Community Server for Linux from the MySQL website and install it manually. Visit the MySQL Community Downloads page. MySQL Downloads Select the appropriate Linux distribution and architecture. Click on the "Download" button. Follow the instructions provided for your specific Linux distribution.
 
-Setup Instructions
+# Setup Instructions
 Create Database Schema: Execute the following SQL command to create the necessary schema for the database:
 
-#CREATE SCHEMA pharmacy_management_system;
+# CREATE SCHEMA pharmacy_management_system;
 Create Tables: Run the provided SQL script to create the required tables in the database. Ensure that your database server is running and accessible.
 
 -- Execute the SQL script provided
 Insert Sample Data (Optional): If desired, insert sample data into the tables to populate them for testing purposes.
 
 Run the Application: Integrate the database with your application code. Implement functionalities for staff management, product management, customer management, supplier management, and transaction processing as per your requirements.
-Database Schema
+# Database Schema
 
 Staff
 Staff_ID: Unique identifier for the staff member (Primary Key)
