@@ -73,3 +73,18 @@ ProductID: Foreign key referencing Product table
 UnitPrice: Price per unit
 Quantity: Quantity of the product
 Discount: Discount applied to the transaction
+
+# Running the Project -
+Ensure that your MySQL server is running.
+
+# Database Connectivity
+Identify Database Connection Details:
+Gather the following information required for database connectivity:
+IP address of the MySQL server.
+Database username.
+Database password.
+Database name.
+Update Database Connection Settings in your Project:
+Locate the file in your project where database connection settings are defined.
+This could be a configuration file, a properties file, or directly in your application code.
+Open the file in a text editor.
